@@ -1,0 +1,40 @@
+@model tl2_recupercionparcial2_2025_augusto_dip.ViewModels.TareaUpdateViewModel
+
+<h2>Modificar Tarea</h2>
+
+<form asp-action="Modificar" method="post">
+    <input type="hidden" asp-for="Id" />
+    
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Titulo" class="control-label"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Descripcion" class="control-label"></label>
+        <textarea asp-for="Descripcion" class="form-control"></textarea>
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Complejidad" class="control-label"></label>
+        <input asp-for="Complejidad" class="form-control" type="number" />
+        <span asp-validation-for="Complejidad" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Estado" class="control-label"></label>
+        <select asp-for="Estado" asp-items="Model.ListaEstados" class="form-control"></select>
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

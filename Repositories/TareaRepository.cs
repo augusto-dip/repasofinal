@@ -1,6 +1,5 @@
 using System.Data.SQLite;
-using System.Runtime.InteropServices;
-using tl2_recupercionparcial2_2025_augusto_dip.Models; // <-- Con esto alcanza para Models y el Enum Categoria
+using tl2_recupercionparcial2_2025_augusto_dip.Models;
 
 namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
 {
@@ -30,8 +29,8 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
                             Titulo = reader["Titulo"].ToString(),
                             Descripcion = reader["Descripcion"].ToString(),
                             Complejidad = Convert.ToInt32(reader["Complejidad"]),
-                            // Enum.Parse funciona perfecto porque la clase y el Enum comparten namespace
-                            Estado = Enum.Parse<Estado>(reader["Categoria"].ToString())
+                            // CORREGIDO: Leemos la columna "Estado" (no "Categoria")
+                            Estado = Enum.Parse<Estado>(reader["Estado"].ToString())
                         });
                     }
                 }
@@ -39,19 +38,17 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
             return list;
         }
 
-        // ... (Los métodos Add, Update, Delete y GetById quedan exactamente iguales al código anterior)
-
         public void Add(Tarea tarea)
         {
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                // SQL del PDF 
                 var command = new SQLiteCommand("INSERT INTO Tareas (Titulo, Descripcion, Complejidad, Estado) VALUES (@Titulo, @Descripcion, @Complejidad, @Estado);", connection);
                 command.Parameters.AddWithValue("@Titulo", tarea.Titulo);
                 command.Parameters.AddWithValue("@Descripcion", tarea.Descripcion);
-                command.Parameters.AddWithValue("@Anio", tarea.Complejidad);
-                command.Parameters.AddWithValue("@Categoria", tarea.Estado.ToString()); // Guardamos como texto
+                // CORREGIDO: Los parámetros son @Complejidad y @Estado (no @Anio y @Categoria)
+                command.Parameters.AddWithValue("@Complejidad", tarea.Complejidad);
+                command.Parameters.AddWithValue("@Estado", tarea.Estado.ToString()); 
                 command.ExecuteNonQuery();
             }
         }
@@ -61,7 +58,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                // SQL del PDF 
                 var command = new SQLiteCommand("UPDATE Tareas SET Titulo = @Titulo, Descripcion = @Descripcion, Complejidad = @Complejidad, Estado = @Estado WHERE Id = @Id;", connection);
                 command.Parameters.AddWithValue("@Titulo", tarea.Titulo);
                 command.Parameters.AddWithValue("@Descripcion", tarea.Descripcion);
@@ -77,7 +73,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                // SQL del PDF
                 var command = new SQLiteCommand("DELETE FROM Tareas WHERE Id = @Id;", connection);
                 command.Parameters.AddWithValue("@Id", id);
                 command.ExecuteNonQuery();
@@ -90,7 +85,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                // SQL del PDF 
                 var command = new SQLiteCommand("SELECT Id, Titulo, Descripcion, Complejidad, Estado FROM Tareas WHERE Id = @Id;", connection);
                 command.Parameters.AddWithValue("@Id", id);
                 using (var reader = command.ExecuteReader())

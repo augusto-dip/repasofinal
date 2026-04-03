@@ -31,14 +31,14 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
         {
             try
             {
-                if (!_auth.IsAuthenticated()) return RedirectToAction("Login", "Acceso");
+                if (!_auth.IsAuthenticated()) return RedirectToAction("Index", "Login");
 
                 var tareas = _repo.GetAll();
                 var viewModels = tareas.Select(t => new TareaIndexViewModel
                 {
                     Id = t.Id,
                     Titulo = t.Titulo,
-                    Descripcion = t.Descripcion, // Corregido: antes decía t.Titulo
+                    Descripcion = t.Descripcion, 
                     Complejidad = t.Complejidad,
                     Estado = t.Estado.ToString()
                 }).ToList();
@@ -47,12 +47,12 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
             }
             catch (Exception)
             {
-                // El parcial pide redirigir a una vista de error sin detalles técnicos
                 return View("Error");
             }
         }
 
-        public IActionResult Create()
+        [HttpGet]
+        public IActionResult Alta() // Renombrado de Create a Alta
         {
             try
             {
@@ -68,7 +68,7 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(TareaCreateViewModel vm)
+        public IActionResult Alta(TareaCreateViewModel vm) // Renombrado
         {
             try
             {
@@ -76,7 +76,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    // REGLA DE NEGOCIO: La suma total no puede superar 50
                     int sumaActual = _repo.GetAll().Sum(t => t.Complejidad);
                     
                     if (sumaActual + vm.Complejidad > 50)
@@ -105,7 +104,8 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
             }
         }
 
-        public IActionResult Edit(int id)
+        [HttpGet]
+        public IActionResult Modificar(int id) // Renombrado de Edit a Modificar
         {
             try
             {
@@ -133,7 +133,7 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(TareaUpdateViewModel vm)
+        public IActionResult Modificar(TareaUpdateViewModel vm) // Renombrado
         {
             try
             {
@@ -141,11 +141,9 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    // REGLA DE NEGOCIO AL MODIFICAR
                     var tareaOriginal = _repo.GetById(vm.Id);
                     int sumaActual = _repo.GetAll().Sum(t => t.Complejidad);
                     
-                    // Lógica clave: Restamos la complejidad que tenía esta tarea y sumamos la nueva ingresada
                     if ((sumaActual - tareaOriginal.Complejidad + vm.Complejidad) > 50)
                     {
                         ModelState.AddModelError(string.Empty, "La suma total de complejidad no puede superar 50.");
@@ -175,7 +173,27 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
             }
         }
 
-        public IActionResult Delete(int id)
+        [HttpGet]
+        public IActionResult Borrar(int id)
+        {
+            try
+            {
+                if (!_auth.HasAccessLevel("Admin")) return RedirectToAction("Index");
+                
+                var tarea = _repo.GetById(id);
+                if (tarea == null) return NotFound();
+
+                // Le pasamos la tarea a la vista para confirmar
+                return View(tarea); 
+            }
+            catch (Exception)
+            {
+                return View("Error");
+            }
+        }
+
+        [HttpPost, ActionName("Borrar")]
+        public IActionResult BorrarConfirmado(int id)
         {
             try
             {

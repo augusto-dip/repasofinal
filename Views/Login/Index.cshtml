@@ -1,0 +1,6 @@
+<form asp-action="Login" method="post">
+    Usuario: <input name="user" />
+    Clave: <input type="password" name="pass" />
+    <button type="submit">Entrar</button>
+    <p class="text-danger">@ViewBag.Error</p>
+</form>
