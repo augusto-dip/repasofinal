@@ -1,0 +1,140 @@
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\appsettings.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.staticwebassets.runtime.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.staticwebassets.endpoints.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.exe
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.deps.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.runtimeconfig.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.pdb
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\System.Data.SQLite.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.RazorAssemblyInfo.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.RazorAssemblyInfo.cs
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.sourcelink.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\scopedcss\bundle\tl2-recupercionparcial2-2025-augusto-dip.styles.css
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\scopedcss\projectbundle\tl2-recupercionparcial2-2025-augusto-dip.bundle.scp.css
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\irep7q04az-b9sayid5wm.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\lcwov0hg0g-61n19gt1b8.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\r77asbqv03-xtxxf3hu2r.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\3d1bwjc6gh-bqjiyaj88i.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\j3hmxk7fof-c2jlpeoesf.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\rh3rkkr8kc-erw9l3u2r3.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\512tr5j64o-aexeepp0ev.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\ngtfi0lcsv-d7shbmvgxk.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\gghp2y264w-ausgxo2sd3.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\31lnly028m-k8d9w2qqmf.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\rwpz8ugy4t-cosvhxvwiu.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\q2stooi1at-ub07r2b239.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\n5ql9m67eb-fvhpjtyr6v.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\rwi5zgqyff-b7pk76d08c.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\objg3u269h-fsbi9cje9m.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\67mhzp9fdq-rzd6atqjts.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\0na98juabo-ee0r1s7dh0.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\aucldamnn5-dxx9fxp4il.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\sfcbcrclks-jd9uben2k1.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\whxoqrmktq-khv3u5hwcm.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\lab412j1vg-r4e9w2rdcm.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\9cqgq4fl4d-lcd1t2u6c8.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\csxgfl4jgf-c2oey78nd0.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\klgddgdeb9-tdbxkamptv.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\5jpslrgmin-j5mq2jizvt.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\wx7own3h2u-06098lyss8.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\azke06w8qc-nvvlpmu67g.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\id77r5jkui-s35ty4nyc5.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\m5iufzchj1-pj5nd1wqec.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\g5j9g6wu3y-46ein0sx1k.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\kdt3tfncsd-v0zj4ognzu.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\tfz73m9odl-37tfw0ft22.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\7fyacih030-hrwsygsryq.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\d85w5b74i5-pk9g2wxc8p.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\2s9t624qy3-ft3s53vfgj.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\u2z4cgcwrm-6cfz1n2cew.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\vptpypsdhz-6pdc2jztkx.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\9dmzyjjgpq-493y06b0oq.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\mgtm7r3uu1-iovd86k7lj.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\k1efx72rot-vr1egmr9el.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\quvp30p9kr-kbrnm935zg.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\kvys8n953z-jj8uyg4cgr.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\3fk0u5qovi-y7v9cxd14o.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\aywgf2jm2d-notf2xhcfb.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\3r7a56z84v-h1s4sie4z3.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\pr3wz9sh69-63fj8s7r0e.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\g8bkgqa33n-0j3bgjxly4.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\c8fiauwla2-47otxtyo56.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\ygc7is1wbd-4v8eqarkd7.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\hiwdsotcrk-356vix0kms.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\4jyu8qizhj-83jwlth58m.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\21bg26q69v-mrlpezrjn3.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\cvcgw6uudt-lzl9nlhx6b.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\y66eucozoo-ag7o75518u.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\jnnhvrp0pc-x0q3zqp4vz.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\15s2rbayv8-0i3buxo5is.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\izl4pfoxrk-o1o13a6vjx.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\q1dfjpy09c-ttgo8qnofa.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\i955p5k2gh-2z0ns9nrw6.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\xnifzjubdv-muycvpuwrr.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\1qfibdp623-87fc7y1x7t.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\h2ghcn5q77-mlv21k5csn.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\db5ffu5s9m-se7lqytd44.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\compressed\sgvdqk7hue-se7lqytd44.gz
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recu.33C0341E.Up2Date
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\refint\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.pdb
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\tl2-recupercionparcial2-2025-augusto-dip\obj\Debug\net9.0\ref\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.csproj.AssemblyReference.cache
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.AssemblyInfoInputs.cache
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.AssemblyInfo.cs
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.csproj.CoreCompileInputs.cache
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.RazorAssemblyInfo.cache
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.RazorAssemblyInfo.cs
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.sourcelink.json
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\refint\tl2-recupercionparcial2-2025-augusto-dip.dll
+C:\Users\54381\Desktop\parcial 2 bien hecho\obj\Debug\net9.0\tl2-recupercionparcial2-2025-augusto-dip.pdb
