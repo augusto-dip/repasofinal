@@ -1,39 +1,51 @@
 ﻿@inject tl2_recupercionparcial2_2025_augusto_dip.Services.IAuthenticationService AuthService
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - tl2_recupercionparcial2_2025_augusto_dip</title>
-    <script type="importmap"></script>
+    <title>@ViewData["Title"] - Sistema</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/tl2_recupercionparcial2_2025_augusto_dip.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <ul class="navbar-nav flex-grow-1">
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-controller="Tareas" asp-action="Index">Gestión de Tareas</a>
-    </li>
-</ul>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-controller="Tareas" asp-action="Index">Gestión de Tareas</a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        </ul>
+                    <ul class="navbar-nav">
+                        @if (AuthService.IsAuthenticated())
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-dark fw-bold">Hola, @AuthService.GetLoggedUserName()!</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-danger btn-sm ms-2" asp-controller="Login" asp-action="Logout">Deslogueo</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-primary btn-sm ms-2" asp-controller="Login" asp-action="Index">Logueo</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody() 
+        </main>
+    </div>
 
-<ul class="navbar-nav">
-    @if (AuthService.IsAuthenticated())
-    {
-        <li class="nav-item">
-            <span class="nav-link text-dark fw-bold">Hola, @AuthService.GetLoggedUserName()!</span>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger btn-sm ms-2" asp-controller="Login" asp-action="Logout">Deslogueo</a>
-        </li>
-    }
-    else
-    {
-        <li class="nav-item">
-            <a class="nav-link btn btn-outline-primary btn-sm ms-2" asp-controller="Login" asp-action="Index">Logueo</a>
-        </li>
-    }
-</ul>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

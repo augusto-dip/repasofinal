@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http; // Clave para SetString
+using Microsoft.AspNetCore.Http; 
 using tl2_recupercionparcial2_2025_augusto_dip.Repositories;
 using tl2_recupercionparcial2_2025_augusto_dip.ViewModels;
 using System;
@@ -8,8 +8,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
 {
     public class LoginController : Controller
     {
-        // NOTA: Asegurate de usar el nombre de interfaz correcto que tengas. 
-        // Si la tuya se llama IUserRepository, cambialo acá.
         private readonly IUserRepository _userRepo; 
 
         public LoginController(IUserRepository userRepo)
@@ -35,7 +33,6 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
                 if (usuario != null)
                 {
                     HttpContext.Session.SetString("User", usuario.User);
-                    // Si la BD devuelve un Rol nulo, le clavamos "User" por defecto para que no crashee
                     HttpContext.Session.SetString("Rol", usuario.Rol ?? "User"); 
 
                     return RedirectToAction("Index", "Tareas");
@@ -46,15 +43,16 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Controllers
             }
             catch (Exception ex)
             {
-                // Tira la excepción a la cara del desarrollador para ver si falló el SQL
-                throw new Exception("ERROR CRÍTICO AL LOGUEAR: " + ex.Message);
+                // CORRECCIÓN: Ahora el error de SQLite se mostrará en la interfaz en lugar de romper la app.
+                ModelState.AddModelError(string.Empty, $"Error de BD (Revisá los nombres de columnas en el Repositorio): {ex.Message}");
+                return View(vm);
             }
         }
 
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("Index", "Home"); // Te devuelve al inicio
+            return RedirectToAction("Index", "Login"); 
         }
     }
 }

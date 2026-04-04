@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tl2-recupercionparcial2-2025-augusto-dip")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69bb2554df8a2f3f34877075bb046a0951dbd30e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae5831b7fe575bc31be2b18eec422b8cc0653214")]
 [assembly: System.Reflection.AssemblyProductAttribute("tl2-recupercionparcial2-2025-augusto-dip")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tl2-recupercionparcial2-2025-augusto-dip")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
