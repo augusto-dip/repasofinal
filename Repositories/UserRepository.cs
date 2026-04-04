@@ -11,7 +11,8 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Repositories
 
         public UserRepository(IConfiguration configuration)
         {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            // Ignoramos el archivo de configuración y forzamos la ruta acá mismo
+            _connectionString = "Data Source=tareas.db";
         }
 
         public Usuario GetByUserAndPass(string user, string pass)
