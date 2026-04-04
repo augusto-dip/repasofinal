@@ -4,15 +4,27 @@ namespace tl2_recupercionparcial2_2025_augusto_dip.Services
 {
     public class AuthenticationService : IAuthenticationService
     {
-        private readonly IHttpContextAccessor _ctx;
+        private readonly IHttpContextAccessor _contextAccessor;
 
-        public AuthenticationService(IHttpContextAccessor ctx)
+        public AuthenticationService(IHttpContextAccessor contextAccessor)
         {
-            _ctx = ctx;
+            _contextAccessor = contextAccessor;
         }
 
-        public bool IsAuthenticated() => !string.IsNullOrEmpty(_ctx.HttpContext.Session.GetString("User"));
+        public bool IsAuthenticated()
+        {
+            return _contextAccessor.HttpContext?.Session.GetString("User") != null;
+        }
 
-        public bool HasAccessLevel(string rol) => _ctx.HttpContext.Session.GetString("Rol") == rol;
+        public bool HasAccessLevel(string rol)
+        {
+            return _contextAccessor.HttpContext?.Session.GetString("Rol") == rol;
+        }
+
+        public string GetLoggedUserName()
+        {
+            // Devolvemos el nombre directo desde el servicio, evitando errores en HTML
+            return _contextAccessor.HttpContext?.Session.GetString("User") ?? "";
+        }
     }
 }

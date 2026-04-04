@@ -12,38 +12,28 @@
 </head>
 <body>
     <header>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-controller="Tareas" asp-action="Index">Gestión de Tareas</a>
+    </li>
+</ul>
+
+<ul class="navbar-nav">
     @if (AuthService.IsAuthenticated())
     {
         <li class="nav-item">
-            <span class="nav-link text-dark">Hola, @Context.Session.GetString("User")!</span>
+            <span class="nav-link text-dark fw-bold">Hola, @AuthService.GetLoggedUserName()!</span>
         </li>
         <li class="nav-item">
-            <a class="nav-link btn btn-outline-danger btn-sm" asp-controller="Login" asp-action="Logout">Deslogueo</a>
+            <a class="nav-link btn btn-outline-danger btn-sm ms-2" asp-controller="Login" asp-action="Logout">Deslogueo</a>
         </li>
     }
     else
     {
         <li class="nav-item">
-            <a class="nav-link btn btn-outline-primary btn-sm" asp-controller="Login" asp-action="Index">Logueo</a>
+            <a class="nav-link btn btn-outline-primary btn-sm ms-2" asp-controller="Login" asp-action="Index">Logueo</a>
         </li>
     }
 </ul>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - tl2_recupercionparcial2_2025_augusto_dip - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

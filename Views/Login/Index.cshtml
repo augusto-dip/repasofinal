@@ -1,6 +1,40 @@
-<form asp-action="Login" method="post">
-    Usuario: <input name="user" />
-    Clave: <input type="password" name="pass" />
-    <button type="submit">Entrar</button>
-    <p class="text-danger">@ViewBag.Error</p>
-</form>
+@model tl2_recupercionparcial2_2025_augusto_dip.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-4">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white text-center">
+                <h4>Acceso al Sistema</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Index" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    
+                    <div class="form-group mb-3">
+                        <label asp-for="User" class="form-label">Usuario</label>
+                        <input asp-for="User" class="form-control" placeholder="Ingrese su usuario" />
+                        <span asp-validation-for="User" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Pass" class="form-label">Contraseña</label>
+                        <input asp-for="Pass" class="form-control" type="password" placeholder="********" />
+                        <span asp-validation-for="Pass" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
